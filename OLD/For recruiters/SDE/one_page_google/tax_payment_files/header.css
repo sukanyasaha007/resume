@@ -1,0 +1,213 @@
+header {
+    max-width: 1150px;
+    margin: 0 auto;
+    height: 50px;
+    margin-bottom: 10px !important;
+}
+
+header #logo {
+    border: none;
+    text-align: center;
+    width: 300px;
+    white-space: nowrap;
+}
+
+header .row {
+    margin: 0;
+    width: 100% !important;
+}
+
+header #logo .logoHelper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+header #logo img {
+    border: none;
+    margin: 0 10px 0 10px;
+    max-height: 50px;
+    max-width: 300px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+header #logo a {
+    border: none;
+    text-decoration: none
+}
+
+header .top-right-links {
+    padding-top: 15px;
+}
+
+@media (max-width: 340px) {
+    header .top-right-links {
+        padding-top: 0;
+        padding-bottom: 15px;
+        padding-left: -5px
+    }
+}
+
+header .top-right-links div {
+    margin-right: 10px
+}
+
+header .top-right-links .login-language {
+    font-size: 14px;
+    font-family: "Gotham-Medium", "Helvetica", "Arial", "sans-serif";
+}
+
+@media (max-width: 415px) {
+    header .top-right-links .login-language {
+        display: none
+    }
+}
+
+header .top-right-links .btn-small {
+    display: inline-block
+}
+
+header .top-right-links .btn-small.btn-login-small {
+    margin: 0 8px 0 10px
+}
+
+@media (max-width: 340px) {
+    header .top-right-links .btn-small.btn-login-small {
+        margin-left: 0
+    }
+}
+
+header #login-button-panel {
+    position: absolute;
+    right: 43px;
+    top: 53px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #0F436E;
+    z-index: 100;
+    display: none
+}
+
+header #login-button-panel #login-container {
+    position: relative
+}
+
+header #login-button-panel #login-container .close {
+    position: absolute;
+    top: -20px;
+    right: -25px;
+    padding: 10px;
+    cursor: pointer;
+    color: #0F436E
+}
+
+header #login-button-panel #login-container .close:hover {
+    opacity: .8
+}
+
+header #login-button-panel #login-container .login-error {
+    font-size: .75em;
+    color: red;
+    white-space: normal;
+    margin: 0 0 10px 0
+}
+
+header #login-button-panel #login-container .forgot-links {
+    margin-top: 15px;
+    line-height: 16px
+}
+
+header #login-button-panel #login-container .forgot-links .forgot-link {
+    display: block;
+    font-size: .75em
+}
+
+a.btn {
+    display: block;
+    background-color: #0F436E;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    -webkit-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    font-family: Gotham-Medium, Helvetica, Arial, sans-serif;
+    padding: 16px 0
+}
+
+header a.btn:hover {
+    text-decoration: none;
+    background-color: #0A85C8;
+    color: #fff;
+}
+
+header a.btn.btn-small {
+    height: 22px;
+    padding: 0 12px;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+header a.btn.btn-ghost {
+    border: 1px solid #0F436E;
+    background-color: transparent;
+    color: #0F436E
+}
+
+header a.btn.btn-ghost:hover {
+    background-color: #0A85C8;
+    border-color: #0A85C8;
+    color: #fff
+}
+
+header a {
+    border-bottom: 1px solid #097bb8;
+    border-bottom: 1px solid rgba(9, 123, 184, .29);
+    color: #097bb8
+}
+
+header a, a:hover {
+    text-decoration: none
+}
+
+header a:hover {
+    border-bottom: 1px solid transparent
+}
+
+#headerUserFullName {
+    display: inline;
+    font-size: 14px;
+    margin-right: 0px;
+}
+
+#headerUserFullName:before {
+    content: "|";
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: #d0d0d0;
+}
+
+header #test-system-box {
+    background-color: #f4f2f2;
+    border: medium solid red;
+    margin: 1px;
+    padding: 4px;
+}
+
+header .test-system-title {
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+header .test-system-info {
+    color: red;
+    font-size: 14px;
+    line-height: 14px;
+}

@@ -1,0 +1,1085 @@
+body.federal-payment-6 .form-container {
+  border-radius: 5px; }
+
+body.federal-payment-6 .for-mobile {
+  display: none; }
+  @media all and (max-width: 320px) {
+    body.federal-payment-6 .for-mobile {
+      display: block; } }
+
+body.federal-payment-6 .cd-container {
+  height: 400px; }
+
+body.federal-payment-6 .success {
+  text-align: left;
+  margin: 32px auto 60px;
+  max-width: 1155px; }
+  body.federal-payment-6 .success .left-success .success-headline {
+    display: block;
+    font-family: "Gotham Pro", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 7px;
+    color: #000; }
+  body.federal-payment-6 .success .left-success .success-thanks {
+    display: block;
+    font-size: 14px;
+    color: #4A4A4A;
+    line-height: 24px; }
+    body.federal-payment-6 .success .left-success .success-thanks strong {
+      font-weight: bold; }
+  body.federal-payment-6 .success .left-success .check {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle; }
+    @media all and (max-width: 596px) {
+      body.federal-payment-6 .success .left-success .check {
+        display: block;
+        float: left; } }
+    body.federal-payment-6 .success .left-success .check img {
+      width: 42px;
+      height: 42px; }
+  body.federal-payment-6 .success .left-success .payment-success {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%; }
+    @media all and (max-width: 596px) {
+      body.federal-payment-6 .success .left-success .payment-success {
+        display: block;
+        padding-left: 62px;
+        width: 100%; } }
+  @media all and (min-width: 769px) and (max-width: 799px) {
+    body.federal-payment-6 .success .right-success {
+      margin-top: 20px; } }
+  @media all and (max-width: 665px) {
+    body.federal-payment-6 .success .right-success {
+      margin-top: 20px; } }
+  body.federal-payment-6 .success .right-success .print {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    body.federal-payment-6 .success .right-success .print:hover {
+      opacity: .8; }
+    body.federal-payment-6 .success .right-success .print a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: .88em;
+      font-weight: normal; }
+    body.federal-payment-6 .success .right-success .print .print-button {
+      background-color: #40AF49;
+      padding: 10px;
+      border-radius: 5px;
+      width: 70px;
+      cursor: pointer; }
+
+body.federal-payment-6 .confirmation-slip {
+  max-width: 1155px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0 28px; }
+  body.federal-payment-6 .confirmation-slip .row {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #F0F0F0; }
+  body.federal-payment-6 .confirmation-slip img {
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle; }
+  body.federal-payment-6 .confirmation-slip div.confirmation-number {
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 1px solid #AAAAAA; }
+  body.federal-payment-6 .confirmation-slip div.confirmation-date-time {
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: middle; }
+    @media all and (max-width: 900px) {
+      body.federal-payment-6 .confirmation-slip div.confirmation-date-time {
+        padding-top: 10px;
+        border-left: 1px solid #AAAAAA;
+        padding-left: 21px; } }
+  body.federal-payment-6 .confirmation-slip .confirmation-title {
+    color: #555555;
+    font-size: .75em;
+    font-weight: normal; }
+  body.federal-payment-6 .confirmation-slip .confirmation-data {
+    font-weight: bold;
+    font-size: 1.125em;
+    color: #555555; }
+
+body.federal-payment-6 .confirmation-details-container {
+  max-width: 1155px;
+  margin: 0 auto;
+  margin-top: 40px; }
+  @media all and (max-width: 768px) {
+    body.federal-payment-6 .confirmation-details-container > div {
+      margin-bottom: 20px; } }
+
+body.federal-payment-6 .bottom-links {
+  font-size: 16px;
+  color: #000;
+  line-height: 22px;
+  padding: 40px 0;
+  border-bottom: 1px solid #ededed;
+  max-width: 1155px;
+  margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+    body.federal-payment-6 .bottom-links > div {
+      margin-bottom: 20px; } }
+  body.federal-payment-6 .bottom-links .column-list-heading {
+    color: #4a4a4a; }
+  body.federal-payment-6 .bottom-links .title {
+    font-size: 16px;
+    font-family: "Gotham Pro", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    margin: 0 0 12px; }
+  body.federal-payment-6 .bottom-links p {
+    margin: 0 0 21px; }
+  body.federal-payment-6 .bottom-links__note {
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 22px; }
+  body.federal-payment-6 .bottom-links .btn-account {
+    border: 1px solid #0F436E;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Gotham Pro", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #0F436E;
+    letter-spacing: 1px;
+    padding: 0 18px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 41px;
+    height: 41px; }
+
+body.federal-payment-6 .btn-change {
+  background: transparent;
+  border: 1px solid #0f436e;
+  display: inline-block;
+  color: #0f436e;
+  font-family: "Gotham Pro", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  height: 22px;
+  line-height: 22px;
+  vertical-align: top; }
+
+body.federal-payment-6 .headline .btn-change {
+  margin-left: 14px; }
+
+body.federal-payment-6 .headline .btn-change {
+  display: none; }
+
+.btn-blue,
+.btn-orange,
+.btn-print-confirmation {
+  background-color: #d76902;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Gotham Pro", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 0 25px;
+  margin-right: 14px;
+  min-width: 90px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 45px;
+  height: 43px;
+  vertical-align: top;
+  -webkit-transition: background-color 0.25s ease, color 0.25s ease;
+  -o-transition: background-color 0.25s ease, color 0.25s ease;
+  transition: background-color 0.25s ease, color 0.25s ease; }
+  .btn-blue:hover, .btn-blue:focus,
+  .btn-orange:hover,
+  .btn-orange:focus,
+  .btn-print-confirmation:hover,
+  .btn-print-confirmation:focus {
+    background-color: #0f436e;
+    color: #fff;
+    text-decoration: none; }
+  .btn-blue[disabled],
+  .btn-orange[disabled],
+  .btn-print-confirmation[disabled] {
+    background-color: #a6a6a6; }
+    .btn-blue[disabled]:hover,
+    .btn-orange[disabled]:hover,
+    .btn-print-confirmation[disabled]:hover {
+      background-color: #a6a6a6; }
+
+.btn-blue {
+  background-color: #0f436e; }
+  .btn-blue:hover {
+    background-color: #097bb8;
+    color: #fff; }
+  .btn-blue[disabled] {
+    background-color: #a6a6a6; }
+    .btn-blue[disabled]:hover {
+      background-color: #a6a6a6; }
+
+.btn-print-confirmation {
+  background-color: #fff;
+  background-image: url("../images/icon-print.svg");
+  background-repeat: no-repeat;
+  background-position: 18px 50%;
+  border: 1px solid #0f436e;
+  color: #0f436e;
+  padding-left: 45px; }
+  .btn-print-confirmation:hover {
+    background-image: url("../images/icon-print-white.svg"); }
+
+.share-list {
+  font-size: 0;
+  list-style: none;
+  margin: 22px 0 11px;
+  padding: 0; }
+  .share-list li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 19px; }
+  .share-list a {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: 0; }
+  .share-list img {
+    border: 0; }
+body.federal-payment-4 .confirmation-details-container .cd-container {
+  min-height: 425px;
+  padding-bottom: 40px; }
+  @media screen and (max-width: 768px) {
+    body.federal-payment-4 .confirmation-details-container .cd-container {
+      min-height: 0; } }
+  body.federal-payment-4 .confirmation-details-container .cd-container .btn-change {
+    position: absolute;
+    bottom: 20px;
+    left: 44px; }
+body.federal-payment-4 .btn-change,
+body.federal-payment-6 .btn-change {
+  background: transparent;
+  border: 1px solid #0f436e;
+  display: inline-block;
+  color: #0f436e;
+  font-family: "Gotham Pro", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  height: 22px;
+  vertical-align: top; }
+body.federal-payment-4 .headline .btn-change,
+body.federal-payment-6 .headline .btn-change {
+  margin-left: 14px; }
+  body.federal-payment-4 .confirmation-details-container .cd-container .btn-change {
+    position: absolute;
+    bottom: 20px;
+    left: 44px; }
+.federal-payment-4 .cd-container .cd-body {
+    color: #4a4a4a;
+    font-size: 14px;
+    min-height: 265px;
+    line-height: 18px;
+    padding: 22px 30px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+.federal-payment-6 .cd-container .cd-body {
+    white-space: normal;
+}
+body.federal-payment-4 #form-save-information {
+  display: none; }
+.form-section {
+    margin-bottom: 40px
+}
+body.federal-payment-4 #form-save-information .form-section-callout-no-border
+    {
+    background-color: transparent
+}
+body.federal-payment-4 #form-save-information .form-section .title
+    {
+    font-weight: 700;
+    font-size: .8em;
+    display: block
+}
+body.federal-payment-4 #form-save-information div.email .mui-email
+    {
+    width: 48%;
+    display: inline-block;
+    float: left
+}
+body.federal-payment-4 .form-section .mui-group .mui-textfield--float-label:after,
+    .form-section .mui-group:after {
+    content: "";
+    clear: both;
+    display: table
+}
+body.federal-payment-3 #form-save-information div.email .mui-email-confirmation,
+    body.federal-payment-4 #form-save-information div.email .mui-email-confirmation
+    {
+    width: 48%;
+    display: inline-block;
+    float: right
+}
+@media all and (max-width: 768px) {
+      form div.email .mui-email-confirmation {
+        width: 100%; } }
+body.federal-payment-4 #form-save-information div.password .mui-password
+    {
+    width: 48%;
+    display: inline-block;
+    float: left
+}
+body.federal-payment-4 #form-save-information div.password .mui-password-confirmation
+    {
+    width: 48%;
+    display: inline-block;
+    float: right
+}
+@media screen and (max-width: 768px) {
+      body.federal-payment-4 #form-save-information div.password .mui-password-confirmation {
+        width: 100%; } }
+body.federal-payment-4 #form-save-information div.mailing-phone {
+    float: left;
+    width: 32%;
+    margin-top: 18px; }
+body.federal-payment-4 #form-save-information div.mailing-phone .mui-areacode,
+body.federal-payment-4 #form-save-information div.mailing-phone .mui-phone1,
+body.federal-payment-4 #form-save-information div.mailing-phone .mui-phone2 {
+      width: 28%; }
+@media screen and (max-width: 768px) {
+  body.federal-payment-4 #form-save-information div.mailing-phone {
+        width: 100%; } }
+body.federal-payment-4 #form-save-information .sms-confirmation {
+    float: right;
+    width: 60%;
+    margin-top: 18px; }
+@media screen and (max-width: 768px) {
+  body.federal-payment-4 #form-save-information .sms-confirmation {
+        width: 100%; } }
+body.federal-payment-4 #form-save-information .security-question {
+    width: 60%; }
+@media screen and (max-width: 768px) {
+   body.federal-payment-4 #form-save-information .security-question {
+        width: 100%; } }
+body.federal-payment-5 #form-save-information .form-radio-section input[type='radio'] {
+    float: left; }
+body.federal-payment-5 #form-save-information .form-radio-section label {
+    font-size: .8em;
+    line-height: 1.4em;
+    margin-left: 12px;
+    float: left;
+    width: 90%; }
+body.federal-payment-5 #form-save-information .form-section .title {
+    font-weight: bold;
+    font-size: 0.8em;
+    display: block; }
+body.federal-payment-5 #form-save-information .form {
+  color: #555555; }
+  body.federal-payment-5 #form-save-information .form-section-callout-no-border {
+    background-color: transparent; }
+body.federal-payment-5 #form-save-information .table, .td, .th {
+    border: -1px;
+}
+
+body.federal-payment-5 #form-save-information  {
+    border-bottom: 1px solid rgba(0, 0, 0, .26);
+}
+
+body.federal-payment-5  .content-simple-table td {
+    border-bottom: 1px solid #d0d0d0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 16px;
+    letter-spacing: 0;
+    padding: 9px 0; }
+
+}
+body.federal-payment-5 .btn-change {
+    background: transparent;
+    border: 1px solid #0f436e;
+    font-size: 12px;
+    font-weight: 400;
+    height: 22px;
+    line-height: 22px;
+}
+body.federal-payment-5 .btn-change {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Gotham Pro, Helvetica, Arial, sans-serif;
+    color: #0f436e;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+a.btn.btn-small {
+    height: 22px;
+    padding: 0 12px;
+    font-size: .75em;
+    line-height: 22px; }
+
+body.federal-payment-5 .form-container,
+body.federal-payment-4 .form-container,
+body.federal-payment-3 .form-container,
+body.federal-payment-2 .form-container {
+  border-radius: 5px; }
+  body.federal-payment-5 .form-container .form-border-bot,
+  body.federal-payment-4 .form-container .form-border-bot,
+  body.federal-payment-3 .form-container .form-border-bot,
+  body.federal-payment-2 .form-container .form-border-bot {
+    border-bottom: 1px solid #ededed;
+    max-width: 1155px;
+    width: 100%;
+    margin: 0 auto; }
+  body.federal-payment-5 .form-container .form-left,
+  body.federal-payment-4 .form-container .form-left,
+  body.federal-payment-3 .form-container .form-left,
+  body.federal-payment-2 .form-container .form-left {
+    max-width: 1155px; }
+    body.federal-payment-5 .form-container .form-left:after,
+    body.federal-payment-4 .form-container .form-left:after,
+    body.federal-payment-3 .form-container .form-left:after,
+    body.federal-payment-2 .form-container .form-left:after {
+      content: "";
+      clear: both;
+      display: table; }
+    body.federal-payment-5 .form-container .form-left .required-fields-container,
+    body.federal-payment-4 .form-container .form-left .required-fields-container,
+    body.federal-payment-3 .form-container .form-left .required-fields-container,
+    body.federal-payment-2 .form-container .form-left .required-fields-container {
+      padding: 10px 0;
+      border-top: 1px solid #AAAAAA; }
+      body.federal-payment-5 .form-container .form-left .required-fields-container .required-fields,
+      body.federal-payment-4 .form-container .form-left .required-fields-container .required-fields,
+      body.federal-payment-3 .form-container .form-left .required-fields-container .required-fields,
+      body.federal-payment-2 .form-container .form-left .required-fields-container .required-fields {
+        color: #555555;
+        font-size: .75em;
+        float: right; }
+  body.federal-payment-5 .form-container .callout-box,
+  body.federal-payment-4 .form-container .callout-box,
+  body.federal-payment-3 .form-container .callout-box,
+  body.federal-payment-2 .form-container .callout-box {
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 14px 16px;
+    margin: 29px 0 30px; }
+    body.federal-payment-5 .form-container .callout-box .callout-headline,
+    body.federal-payment-4 .form-container .callout-box .callout-headline,
+    body.federal-payment-3 .form-container .callout-box .callout-headline,
+    body.federal-payment-2 .form-container .callout-box .callout-headline {
+      color: #0f436e;
+      display: block;
+      font-weight: bold; }
+
+@media screen and (max-width: 1024px) {
+  body.federal-payment-4 .form-right {
+    display: none; } }
+
+@media screen and (max-width: 1024px) {
+  body.federal-payment-4 .form-left {
+    max-width: 100% !important; } }
+
+@media screen and (max-width: 768px) {
+  body.federal-payment-4 .grey-body-section {
+    padding: 25px; } }
+
+@media screen and (max-width: 400px) {
+  body.federal-payment-4 .grey-body-section {
+    padding: 0px !important;
+    background-color: #fff !important; } }
+
+.headline {
+  color: #0f436e;
+  font-size: 20px;
+  font-family: "Gotham Pro", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 34px 0 0; }
+  .headline__note {
+    color: #4a4a4a;
+    font-family: "Gotham Pro", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px; }
+
+.form-section-note {
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  color: #4a4a4a;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 9px 14px 11px;
+  margin-left: 15px;
+  width: 262px; }
+  @media all and (max-width: 767px) {
+    .form-section-note {
+      display: block;
+      margin-left: 0; } }
+
+.mui-textfield,
+.mui-select {
+  padding-top: 18px;
+  margin-bottom: 10px; }
+
+.mui-select div {
+  z-index: 100; }
+
+.mui-textfield > label.allow-overflow {
+  overflow-x: inherit; }
+
+.mui-textfield.expand-bottom {
+  margin-bottom: 60px; }
+
+.mui-textfield.zipcode {
+  max-width: 250px; }
+
+.form-section-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555; }
+
+.mui-half-width {
+  width: 50%; }
+  @media all and (max-width: 768px) {
+    .mui-half-width {
+      width: 100%; } }
+
+.mui-group::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.mui-group.mui-group-half {
+  width: 42%;
+  float: left; }
+
+.mui-group.mui-group-state-zip .state {
+  width: 60%;
+  margin-right: 5%; }
+
+.mui-group.mui-group-state-zip .zipcode {
+  width: 35%; }
+
+.mui-group.mui-group-state-zip .mui-textfield, .mui-group.mui-group-state-zip .mui-select {
+  float: left; }
+
+.mui-group.mui-group-phone {
+  max-width: 250px; }
+  .mui-group.mui-group-phone .mui-textfield {
+    width: 31%;
+    float: left; }
+  .mui-group.mui-group-phone .phone-2, .mui-group.mui-group-phone .mobile-phone-2 {
+    margin: 0 3.5%; }
+
+.mui-group.mui-group-name .mui-textfield {
+  float: left; }
+
+.mui-group.mui-group-name .name-1 {
+  width: 40%; }
+
+.mui-group.mui-group-name .name-2 {
+  width: 15%;
+  margin: 0 2.5%; }
+
+.mui-group.mui-group-name .name-3 {
+  width: 40%; }
+
+.mui-group.mui-group-ssn .mui-textfield {
+  width: 30%;
+  margin-right: 5%;
+  float: left; }
+  .mui-group.mui-group-ssn .mui-textfield:last-of-type {
+    margin-right: 0; }
+
+.form-error::before {
+    content:" * ";  }
+
+form {
+  color: #555555; }
+  form .form-text-12 {
+    font-size: .75em;
+    font-weight: normal; }
+  form .form-text-10 {
+    font-size: .75em;
+    line-height: 10px; }
+  form .irs-notice-div {
+    padding: 0; }
+    form .irs-notice-div .title {
+      color: #555555;
+      font-weight: bold;
+      font-size: 1em; }
+  form .irs-notice-div label {
+    color: #555555;
+    font-size: .75em;
+    margin-right: 20px; }
+  form div.names {
+    margin-top: -10px; }
+    form div.names .mui-first-name {
+        width:40%;
+        margin-left:3px;
+        display:inline-block;
+        float:left }
+    form div.names .mui-middleinitial {
+        width:6%;
+        margin-left:3px;
+        display:inline-block;
+        float:left }
+    form div.names .mui-last-name {
+        width:40%;
+        margin-left:3px;
+        display:inline-block; }
+    form div.names .mui-suffix {
+      width: 12%;
+      display:inline-block;
+        float:right }
+  form div.business-names .mui-business-name {
+    margin-top: -10px; }
+  form div.business-names .mui-business-name {
+      width:35%;
+      display: inline-block; }
+  form div.business-names-tax_year .mui-business-name, form div.business-names-tax_year .mui-tax-year {
+    margin-top: -10px; }
+    form div.business-names-tax_year .mui-business-name {
+      width:35%;
+      display: inline-block;
+      float: left; }
+    form div.business-names-tax_year .mui-tax-year {
+      width: 30%;
+      margin-left: 5px;
+      display: inline-block; }
+  form div.names .mui-tax-year {
+    width: 15%;
+    margin-bottom: 0;
+    padding-right: 28px; }
+  form div.ssn .mui-ssn-1, form div.ssn .mui-ssn-2, form div.ssn .mui-ssn-3, div.ssn .mui-ssn-reenter-1, div.ssn .mui-ssn-reenter-2, div.ssn .mui-ssn-reenter-3   {
+    width: 15%;
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: 10px; }
+  form div.dob .mui-mm, form div.dob .mui-dd, form div.dob .mui-yyyy {
+    margin-top: -10px; }
+    form div.dob .mui-mm {
+      width:15%;
+      display: inline-block; }
+    form div.dob .mui-dd {
+      width: 15%;
+      display: inline-block;
+      margin-left: 5px; }
+    form div.dob .mui-yyyy {
+      width: 20%;
+      display: inline-block;
+      margin-left: 5px; }
+  form div.ssn .title {
+    color: #555555;
+    font-weight: bold;
+    font-size: 1em; }
+  form div.ssn span.grey-note {
+    color: #555555;
+    font-weight: normal;
+    font-size: .75em; }
+  form div.dob .title {
+    color: #555555;
+    font-weight: bold;
+    font-size: 1em; }
+  form div.mailing-phone .title {
+    font-size: 1em;
+    color: #555555;
+    font-weight: bold; }
+  form div.mailing-phone .mui-country {
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding-right: 28px; }
+  form div.mailing-phone .mui-city, form div.mailing-phone .mui-state, form div.mailing-phone .mui-zip {
+    margin-top: -10px; }
+    form div.mailing-phone .mui-city {
+      width:45%;
+      display: inline-block;
+      float: left; }
+    form div.mailing-phone .mui-state {
+      width: 29%;
+      display: inline-block;
+      margin-left: 5px; }
+    form div.mailing-phone .mui-zip {
+      width: 25%;
+      display: inline-block;
+      float: right; }
+  form div.mailing-phone .mui-areacode, form div.mailing-phone .mui-phone1, form div.mailing-phone .mui-phone2 {
+    margin-top: -10px; }
+    form div.mailing-phone .mui-areacode {
+      width:15%;
+      display: inline-block; }
+    form div.mailing-phone .mui-phone1 {
+      width: 15%;
+      display: inline-block;
+      margin-left: 5px; }
+    form div.mailing-phone .mui-phone2 {
+      width: 20%;
+      display: inline-block;
+      margin-left: 5px; }
+  form div.email .title {
+    font-size: 1em;
+    color: #555555;
+    font-weight: bold; }
+  form div.email .mui-email {
+    width: 65%; }
+    @media all and (max-width: 768px) {
+      form div.email .mui-email {
+        width: 100%; } }
+  form div.email .mui-email-confirmation {
+    margin-bottom: 10px;
+    width: 65%; }
+    @media all and (max-width: 768px) {
+      form div.email .mui-email-confirmation {
+        width: 100%; } }
+
+label {
+  color: #555 !important; }
+
+.form-payment-reminder__fields-wrap {
+  font-size: 0; }
+
+.form-payment-reminder__field-wrap {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-right: 20px;
+  width: 122px; }
+  @media all and (max-width: 767px) {
+    .form-payment-reminder__field-wrap {
+      margin-bottom: 20px; } }
+
+.form-payment-reminder__due {
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin: 14px 0 20px; }
+  .form-payment-reminder__due strong {
+    font-weight: bold; }
+
+.form-payment-reminder .form-dates-list {
+  border: 0;
+  background: transparent;
+  margin: 30px 0 0;
+  padding: 0; }
+
+.scheduled-payments-terms {
+  margin: 20px 0; }
+  .scheduled-payments-terms__title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 0;
+    margin: 0 0 20px; }
+
+.form-section-content {
+  padding: 35px 45px;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px; }
+  .form-section-content::after {
+    content: "";
+    clear: both;
+    display: table; }
+  @media screen and (max-width: 768px) {
+    .form-section-content {
+      padding: 35px 15px; } }
+  .form-section-content.no-border-top {
+    border-top: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0; }
+  .form-section-content.no-border {
+    border: none; }
+  .form-section-content .form-section-label {
+    font-size: .88em;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+    margin-top: 60px; }
+    .form-section-content .form-section-label.collapse-top {
+      margin-top: 0; }
+  .form-section-content .mui-textfield, .form-section-content .mui-select {
+    margin-bottom: 25px; }
+    .form-section-content .mui-textfield.collapse-bottom, .form-section-content .mui-select.collapse-bottom {
+      margin-bottom: 0; }
+  .form-section-content a.btn-payment {
+    margin: 20px 0 0 0; }
+
+  .form__label {
+    color: #4a4a4a;
+    font-size: 14px;
+    display: block;
+    position: relative;
+    margin: 0 0 6px; }
+  .form__label-help-link {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .form__field, .form__select {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+    border-bottom: 1px solid #a6a6a6;
+    color: #4a4a4a;
+    font-size: 14px;
+    height: 28px;
+    width: 100%;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none; }
+    .form__field:focus, .form__select:focus {
+      border-bottom-color: #0f436e;
+      outline: 0; }
+    .form__field:placeholder, .form__select:placeholder {
+      color: #ededed; }
+    .form__field--size-normal, .form__select--size-normal {
+      width: 328px; }
+    .form__field--textarea, .form__select--textarea {
+      background: #fff;
+      border: 1px solid #adadad;
+      height: 201px;
+      width: 680px;
+      resize: vertical; }
+
+.payment-flow-schedule-automatic {
+  margin: 0 0 22px; }
+  .payment-flow-schedule-automatic .title {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0;
+    margin: 0 0 21px; }
+
+.payment-flow-schedule-automatic-terms {
+  background: #fff;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 19px;
+  margin: 30px 0 20px;
+  padding: 20px; }
+  .payment-flow-schedule-automatic-terms__title {
+    font-weight: bold;
+    letter-spacing: 0;
+    margin-bottom: 19px; }
+#credit-card-line {
+  display: block; }
+  #credit-card-line #cardno {
+    width: 35%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%; }
+    @media all and (max-width: 988px) {
+      #credit-card-line #cardno {
+        width: 50%;
+        display: block;
+        float: none;
+        margin-right: 0; } }
+    @media all and (max-width: 768px) {
+      #credit-card-line #cardno {
+        width: 100%; } }
+#credit-card-line #expmo {
+    width: 13%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%; }
+    @media all and (max-width: 988px) {
+      #credit-card-line #expmo {
+        width: 23%;
+        display: block;
+        float: left;
+        margin-right: 2%; } }
+    @media all and (max-width: 768px) {
+      #credit-card-line #expmo {
+        width: 48%;
+        margin-right: 2%;
+        float: left; } }
+#credit-card-line #expyr {
+    width: 13%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%; }
+    @media all and (max-width: 988px) {
+      #credit-card-line #expyr {
+        width: 23%;
+        display: block;
+        float: left;
+        margin-right: 2%; } }
+    @media all and (max-width: 768px) {
+      #credit-card-line #expyr {
+        width: 48%;
+        margin-right: 0;
+        float: right; } }
+#credit-card-line #seccode {
+    width: 13%; }
+    @media all and (max-width: 500px) {
+      #credit-card-line #seccode {
+        width: 25%; } }
+
+.form-section-callout-no-border--no-padding {
+  padding: 0 !important; }
+
+.payment-info-types {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .payment-info-types__item {
+    border-bottom: 1px solid #d0d0d0;
+    display: block;
+    padding: 20px 29px; }
+    .payment-info-types__item:last-child {
+      border-bottom: 0; }
+  .payment-info-types__radio:checked + .payment-info-types__label {
+    color: #000 !important;
+    border-bottom: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px; }
+  .payment-info-types__label {
+    border-bottom: 1px solid #0f436e;
+    color: #0f436e !important;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 0 9px; }
+  .payment-info-types__radio:checked ~ .payment-info-types-content {
+    display: block; }
+
+.payment-info-types-content {
+  display: none;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px 28px 0; }
+  .payment-info-types-content__note {
+    color: #4a4a4a !important;
+    max-width: 500px; }
+  .payment-info-types-content h4 {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 25px 0 0; }
+  .payment-info-types-content p {
+    color: #000;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 17px; }
+  .payment-info-types-content ol {
+    color: #000;
+    font-size: 14px;
+    line-height: 17px;
+    list-style: decimal;
+    margin: 15px 0 17px 18px; }
+
+.payment-info-types-7eleven img {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 19px; }
+
+.payment-info-types-vdbs img {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 7px; }
+
+.payment-info-types-7eleven__desc {
+  display: inline-block;
+  vertical-align: top; }
+  .payment-info-types-7eleven__desc b {
+    font-weight: bold; }
+
+.payment-info-types-vdbs__desc {
+  display: inline-block;
+  vertical-align: top;
+  }
+  .payment-info-types-vdbs__desc b {
+    font-weight: bold; }
+
+.payment-info-types-image {
+  margin: 17px 0 0; }
+.mui-textfield.payment-amount {
+  display: inline-block;
+  vertical-align: top;
+  width: 276px; }
+  @media all and (min-width: 768px) {
+    .mui-textfield.payment-amount {
+      width: 356px; } }
+ input.pre-dollar-sign {
+  display: inline-block;
+  padding-left: 15px !important; }
+
+span.inline-dollar {
+  font-size: .88em;
+  display: inline-block;
+  position: absolute;
+  top: 25px; }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 15%;
+  height: 20%;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+displayAddress {
+  white-space: pre;
+}
+
+displayCDE {
+  white-space: pre;
+}
+
+displayProduct {
+  white-space: pre;
+}
+
+.paypal-payment-info-types__label {
+    color: #0f436e !important;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 5px 0 0 9px;
+}
+
+.venmo-payment-info-types__label {
+  color: #0f436e !important;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 10px 0 0 9px;
+}

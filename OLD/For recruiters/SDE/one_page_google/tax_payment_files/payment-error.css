@@ -1,0 +1,53 @@
+.payment-error .main-content-box {
+    width: 100% !important;
+}
+.payment-error .main-content-box table:first-child {
+    width: 100% !important;
+}
+.payment-error .tls-block {
+    display: none;
+}
+.payment-error footer hr {
+    display: none;
+}
+.payment-error .cd-container {
+    height: 350px !important;
+}
+
+.payment-error .cd-body img {
+    margin-bottom: 10px;
+}
+.payment-error .body-heavy {
+    white-space: normal;
+}
+.payment-error h1 {
+    border: none;
+}
+.payment-error .confirmation-details-container{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.payment-error .content-header {
+    margin-top: 10px;
+}
+.payment-error .bottom-buttons__link {
+    border-bottom: 1px solid #097bb8;
+    border-bottom: 1px solid rgba(9, 123, 184, .29);
+    color: #097bb8;
+    font-size: 14px;
+}
+.payment-error .bottom-buttons__link, .payment-error .bottom-buttons__link:hover {
+    text-decoration: none
+}
+.payment-error .bottom-buttons__link:hover {
+    border-bottom: 1px solid transparent
+}
+.payment-error .form-container {
+    padding-bottom: 0 !important;
+}
+.payment-error .message__title {
+    padding-top: 10px;
+}
+.payment-error .bottom-buttons form {
+    display: inline;
+}
