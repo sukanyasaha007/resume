@@ -1,0 +1,85 @@
+.processing-page .main-content-box {
+    width: 100% !important;
+}
+.processing-page .main-content-box table:first-child {
+    width: 100% !important;
+}
+.processing-page #progress-container {
+    width: 1155px;
+    margin: 0 auto;
+    padding-bottom: 0 !important;
+}
+.processing-page .payment-loading {
+    width: 1155px;
+    margin: 0 auto;
+}
+.processing-page .tls-block {
+    display: none;
+}
+.processing-page footer hr {
+    display: none;
+}
+.payment-loading {
+    margin: 30px 0;
+}
+.payment-loading-content {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 634px; }
+.payment-loading-content__title {
+    font-family: "Gotham Pro", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 12px; }
+.payment-loading-content__note {
+    font-size: 14px;
+    color: #4a4a4a;
+    letter-spacing: 0;
+    margin: 9px 0 0; }
+.payment-loading-content__text {
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin: 26px 0 0; }
+.payment-loading-content__text ul {
+    list-style: disc;
+    margin: 0 0 0 15px; }
+.loader {
+    background: url(../images/loader.svg) no-repeat 50% 50%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 64px;
+    width: 64px;
+    -webkit-animation: loader-rotate 2.25s linear infinite;
+    animation: loader-rotate 2.25s linear infinite; }
+@-webkit-keyframes loader-rotate {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0); }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+@keyframes loader-rotate {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0); }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+.processing-page a {
+    font-size: 14px;
+    border-bottom: 1px solid #097bb8 !important;
+    border-bottom: 1px solid rgba(9, 123, 184, .29) !important;
+}	
+.processing-page a, .processing-page a:active, .processing-page a:hover {
+    color: #097bb8;
+    text-decoration: none !important;
+}
+.processing-page a:active, .processing-page a:hover {
+    border-bottom: 1px solid transparent !important
+}        
